@@ -4,12 +4,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondicionesCompuestas", "CondicionesCompuestas.csproj", "{23E6C7D3-A352-4381-8121-67D8A057E38E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24D96104-840B-48CE-AC0D-396A4881E7F8} = {24D96104-840B-48CE-AC0D-396A4881E7F8}
+		{A420B128-E0C4-421E-B470-FB64DD3518F0} = {A420B128-E0C4-421E-B470-FB64DD3518F0}
+		{CB38E2B7-CCDC-44FE-BB55-F64B8BEF42D4} = {CB38E2B7-CCDC-44FE-BB55-F64B8BEF42D4}
+		{AFD066FD-95C0-41B3-BFFE-513D799590C2} = {AFD066FD-95C0-41B3-BFFE-513D799590C2}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estructuras de control", "..\Estructuras de control\Estructuras de control.csproj", "{CB38E2B7-CCDC-44FE-BB55-F64B8BEF42D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionMatematica", "..\OperacionMatematica\OperacionMatematica.csproj", "{24D96104-840B-48CE-AC0D-396A4881E7F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "..\TryCatch\TryCatch.csproj", "{A420B128-E0C4-421E-B470-FB64DD3518F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryCatch", "..\TryCatch\TryCatch.csproj", "{A420B128-E0C4-421E-B470-FB64DD3518F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PintandoConsola", "..\PintandoConsola\PintandoConsola.csproj", "{AFD066FD-95C0-41B3-BFFE-513D799590C2}"
 EndProject
