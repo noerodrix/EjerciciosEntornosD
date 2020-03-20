@@ -20,6 +20,7 @@ namespace CondicionesCompuestasED
             Console.Write("Ingrese un mes:");
             mes = Console.ReadLine();
 
+            //La función Substring comienza en una posición especificada y tiene una longitud especificada
             if (mes.Substring(0,3).Equals("sep") ||
                 mes.Substring(0,3).Equals("oct") ||
                 mes.Substring(0,3).Equals("nov") ||
@@ -40,7 +41,7 @@ namespace CondicionesCompuestasED
                   Console.Write("No es del primero, es del tercer trimestre");
             }
             // Aunque sólo pide que diga si es del primer trimestre, yo he añadido las demás opciones. 
-Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }
