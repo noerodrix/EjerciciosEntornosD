@@ -13,7 +13,7 @@ namespace CondicionesCompuestasED
 {
     class CondicionesCompuestas
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             string mes;
 
