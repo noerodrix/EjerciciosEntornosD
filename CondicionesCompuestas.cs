@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  * ************************/
 namespace CondicionesCompuestasED
 {
-    class Program
+    class CondicionesCompuestas
     {
         static void Main(string[] args)
         {
